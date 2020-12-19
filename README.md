@@ -4,10 +4,10 @@ Personal nvim configuration folder
 
 ### Requirements
 
-##Neovim
+######Neovim
 `sudo apt-get install neovim`
 
-##Git
+######Git
 `sudo apt-get install git`
 
 ### Instalation
