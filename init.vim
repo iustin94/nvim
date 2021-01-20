@@ -50,7 +50,9 @@ Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'Mizux/vim-colorschemes'
-
+Plug 'mileszs/ack.vim'
+Plug 'tomasiser/vim-code-dark'
+'
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 else
@@ -147,7 +149,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-colorscheme pencil
+colorscheme codedark
 
 set mousemodel=popup
 set t_Co=256
@@ -519,3 +521,6 @@ nnoremap <C-Z> u
 nnoremap <C-Y> <C-R>
 
 
+" Remap resizing commands
+nnoremap <C-w>+5 <C-Up>
+nnoremap <C-w>-5 <C-Down>
