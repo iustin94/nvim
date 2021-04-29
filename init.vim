@@ -368,6 +368,7 @@ let g:UltiSnipsEditSplit="vertical"
 
 " ale
 let g:ale_linters = {}
+let g:ale_sign_column_always = 1
 
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
@@ -512,7 +513,7 @@ endif
 "******************************************************************************
 
 " Set the color column 80"
-set cc=80
+set cc=120
 
 " Remap excape to be jj in insert mode
 :imap jj <ESC>

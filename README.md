@@ -16,3 +16,5 @@ Clone repository into "~/.config/nvim":
 
 `git clone https://github.com/iustin94/nvim.git ~/.config/`
 
+Install YouCompleteMe:
+`https://github.com/ycm-core/YouCompleteMe#general-usage`
